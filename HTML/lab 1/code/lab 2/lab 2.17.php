@@ -2,6 +2,8 @@
 
 function xAdd(int $len)
 {
+    $letter = "x";
+    $arr = array($letter);
     for ($i = 0; $i < $len; $i++)
     {
         array_push($arr, str_repeat('x', $i));
