@@ -1,9 +1,7 @@
 <?php
 
-function xAdd(int $len)
 function xAdd(int $len, string $letter)
 {
-    $letter = "x";
     $arr = array($letter);
     for ($i = 0; $i < $len; $i++)
     {
