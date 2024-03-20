@@ -1,7 +1,7 @@
 <?php
+
 function xAdd(int $len)
 {
-    $arr = array();
     for ($i = 0; $i < $len; $i++)
     {
         array_push($arr, str_repeat('x', $i));
