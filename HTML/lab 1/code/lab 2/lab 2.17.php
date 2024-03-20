@@ -1,6 +1,7 @@
 <?php
 
 function xAdd(int $len)
+function xAdd(int $len, string $letter)
 {
     $letter = "x";
     $arr = array($letter);
@@ -12,6 +13,7 @@ function xAdd(int $len)
 }
 
 foreach (xAdd(5) as $value)
+foreach (xAdd(5, "x") as $value)
 {
     echo $value . ' ';
 }
