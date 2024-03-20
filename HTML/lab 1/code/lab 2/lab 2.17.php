@@ -10,7 +10,6 @@ function xAdd(int $len, string $letter)
     return $arr;
 }
 
-foreach (xAdd(5) as $value)
 foreach (xAdd(5, "x") as $value)
 {
     echo $value . ' ';
