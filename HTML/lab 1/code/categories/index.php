@@ -11,3 +11,14 @@
     <form action= "../save.php" method= "post">
         <label for="email">Email</label>
         <input type="email" name="email" required>
+        <label for="category">Category</label>
+        <select name="category" required>
+            <?php
+            $categories = scandir('./categories');
+            foreach ($categories as $value) {
+                if ($value != '.' and $value != '..')
+                {
+                    echo "<option value=\"$value\">$value</option>";
+                }
+            }
+            ?>
