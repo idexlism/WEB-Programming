@@ -26,7 +26,7 @@ if ('POST' === $_SERVER['REQUEST_METHOD'])
     ];
 }
 
-$range = 'Лист1';
+$range = 'table';
 
 $body = new Google_Service_Sheets_ValueRange([
     'values' => $values
