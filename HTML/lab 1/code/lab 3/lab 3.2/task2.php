@@ -19,3 +19,20 @@
         </form>
     </div>
 
+    <div>
+        <h1>Task 2b.</h1>
+        <form action="/task2/register2b.php" method="post">
+            <label for="text-example">Введите свои данные <br></label>
+            <label for="surname">Фамилия</label>
+            <input type="text" name="surname" required >
+            <br>
+            <label for="name">Имя</label>
+            <input type="text" name="name" required>
+            <br>
+            <input type="submit" value="Save">
+        </form>
+        <br>
+        <a href="/task2/profile2b.php">Открыть личный кабинет</a>
+    </div>
+
+    <div>
