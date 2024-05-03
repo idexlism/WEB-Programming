@@ -22,3 +22,18 @@
                 }
             }
             ?>
+            <option value="cars">Cars</option>
+            <option value="other">Other</option>
+        </select>
+
+        <label for="title">Title</label>
+        <input type="text" name="title" required>
+
+        <label for="description">Description</label>
+        <textarea rows="1" cols="25" name="description"></textarea>
+
+        <input type="submit" value="Save">
+    </form>
+    </body>
+    </html>
+</doctype>
