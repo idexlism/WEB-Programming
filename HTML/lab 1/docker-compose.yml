@@ -14,4 +14,9 @@ services:
     volumes:
       - .code:/code
 
-
+  db:
+    image: mysql:8.0
+    ports:
+      - '6603:3306'
+    environment:
+      MYSQL_ROOT_PASSWORD: helloworld
